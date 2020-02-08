@@ -1,0 +1,497 @@
+/*
+author:    [Brainean] 
+email:     [brainean@brainean.tech] 
+website:   [www.brainean.tech] 
+*/
+
+/* ========== Very small mobiles ========== */
+/* ========== Generial ========== */
+html , body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Signika', sans-serif;
+}
+
+/* ========== navbar ========== */
+nav {
+    background:#fff;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(173,166,173,1);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(173,166,173,1);
+    box-shadow: 0px 0px 17px 0px rgba(173,166,173,1);   
+}
+nav .navbar-brand img {
+    width: 50%;
+}
+
+nav .navbar-nav {
+    display: flex;
+    align-items: center;    
+    padding-bottom: 20px; 
+}
+
+nav .nav_cotacts {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link ,
+nav .nav_cotacts p {
+    font-size: 20px;
+    color: #64697A;
+}
+
+.navbar-light .navbar-nav .dropdown .dropdown-menu .dropdown-item {
+    color: #FF3A46;
+    font-weight: 800;
+}
+
+.navbar-light .navbar-nav .dropdown .dropdown-menu .dropdown-item:hover {
+    color: #ffff;
+    background: #FF3A46;
+}
+
+.navbar-light .navbar-nav .nav-link:hover ,
+.navbar-light .navbar-nav .nav-link.active {    
+    color: #FF3A46;
+}
+
+nav .nav_cotacts span {
+    color: #FF3A46;
+    font-weight: 600;
+}
+
+nav .nav_cotacts button {
+    color: #FF3A46;
+    padding: 5px 15px;
+    font-size: 20px;
+    background: none;
+    border: 1px solid #FF3A46;
+    transition: 0.4s ease-in-out;
+    outline: none;
+} 
+
+nav .nav_cotacts button:hover {
+    background: #FF3A46;
+    color: #fff;
+}
+
+.nav_cotacts button i {
+    margin: 10px 0 0 5px;
+    font-size: 15px;
+}
+
+/* ========== Start map ========== */
+.map {
+    margin: 10px;
+}
+
+.map iframe {
+    margin-top: 120px;
+    width: 100%;
+    height: 600px;
+}
+
+/* ========== Start contact_form ========== */
+
+.contact_data {
+    padding: 40px 0 0 0;
+}
+
+.contact_data .total_contact {
+    display: flex;
+    flex-flow: column;
+}
+
+.contact_data .total_contact form {
+    display: flex;
+    flex-flow: column;
+}
+
+.contact_data .total_contact form input , 
+.contact_data .total_contact form textarea {
+    border: none;
+    border-bottom: 1px solid #ebebeb;
+    font-size: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+}
+
+.contact_data .total_contact form textarea {
+    height: 200px;
+}
+
+.contact_data .total_contact form input:focus , 
+.contact_data .total_contact form textarea:focus {
+    border-bottom: 1px solid #FF3A46;
+    outline: none;
+}
+
+.contact_data .total_contact form button {
+    color: #fff;
+    background: #FF3A46;
+    width: 60%;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.contact_data .total_contact form button:hover {
+    outline: 2px solid #fff;
+    outline-offset: -5px;
+} 
+
+.contact_data .total_contact .contact_info {
+    padding: 50px 0;
+}
+
+.contact_data .total_contact .contact_info h1 {
+    font-size: 36px;
+    color: #3e3e3e;
+    margin-bottom: 20px;
+}
+
+.contact_data .total_contact .contact_info p {
+    font-size: 20px;
+    color: #798598;
+    margin-bottom: 20px;
+}
+
+.contact_data .total_contact .contact_info span {
+    font-size: 25px;
+    font-weight: 800;
+    color: #3e3e3e;
+    cursor: pointer;
+}
+
+.contact_data .total_contact .contact_info span:hover {
+    text-decoration: underline;
+}
+
+.contact_data .total_contact .contact_info ul {
+    display: flex;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.contact_data .total_contact .contact_info ul i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row;
+    color: #dbdbdb;
+    border: 2px solid #e8e8e8;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+    transition: 0.4s ease-in-out;
+}
+
+.contact_data .total_contact .contact_info ul i:hover {
+    color: #fff;
+    background: #FF3A46;
+    border-color: #FF3A46;
+}
+
+/* ========== Start footer ========== */
+
+footer {
+    padding: 20px 0 50px 0;
+    border-top: 1px solid #dbdbdb;
+}
+
+footer .total_footer {
+    display: flex;
+    flex-direction: column;    
+}
+
+.total_footer .footer_div {
+    margin-bottom: 20px;
+}
+
+.total_footer .footer_div:nth-child(2) ,
+.total_footer .footer_div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+}
+
+.total_footer .footer_div p , 
+.total_footer .footer_div a {
+    color: #76797e;
+    font-size: 18px;
+}
+
+.total_footer .footer_div a:hover ,
+.footer_copyrights ul li a:hover {
+    color: #FF3A46;
+}
+
+.total_footer .footer_div:nth-child(1) p {
+    margin-top: 20px;
+}
+
+.total_footer .footer_div:nth-child(1) span {
+    color: #FF3A46;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.icons_footer {
+    display: flex;
+}
+
+.icons_footer i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 17px;
+    border: 1px solid #dbdbdb;
+    margin-right: 10px;
+    color: #dbdbdb;
+    transition: 0.4s ease-in-out;
+}
+
+.icons_footer i:hover {
+    background: #FF3A46;
+    border: 1px solid #FF3A46;
+    color: #fff;
+}
+
+.footer_copyrights {
+    border-top: 1px solid #dbdbdb;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.footer_copyrights ul li a,
+.footer_copyrights p {
+    color: rgba(87,102,126,0.8);
+    font-size: 18px;
+}
+
+.footer_copyrights ul {
+    display: flex;
+}
+
+.footer_copyrights ul li {
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+/* ################################################################## */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /* ========== Start footer ========== */
+
+    footer {
+        padding: 50px 0;
+    }
+
+    footer .total_footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);  
+    }
+
+}
+
+/* ################################################################## */
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    /* ========== Start footer ========== */
+
+    footer .footer_div a ,
+    footer .footer_div p {
+        font-size: 20px !important;
+    }
+
+    .footer_copyrights {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+/* ######################################################### */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    /* ========== navbar ========== */
+    nav {
+        background:#fff;
+        -webkit-box-shadow: 0px 0px 17px 0px rgba(173,166,173,1);
+        -moz-box-shadow: 0px 0px 17px 0px rgba(173,166,173,1);
+        box-shadow: 0px 0px 17px 0px rgba(173,166,173,1); 
+        display: flex;
+        flex: auto;  
+    }
+
+    nav .navbar-brand img {
+        width: 60%;
+    }
+
+    nav .navbar-nav {
+        display: flex;
+        align-items: center;    
+        padding-bottom: 20px; 
+    }
+
+    #navbarNav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav .navbar-nav ,
+    nav .nav_cotacts p {
+        margin-top: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-weight: 700;
+    }
+
+    nav .nav_cotacts {
+        display: flex;
+        padding-bottom: 0px;
+    }
+
+    nav .nav_cotacts button {
+        padding: 10px;
+        margin: 10px 0 0 15px;
+        height: 100%;
+        border: 2px #FF3A46 solid;
+    } 
+
+    /* ========== Start contact_form ========== */
+
+    .contact_data {
+        padding: 100px 0;
+    }
+
+    .contact_data .total_contact {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+    .contact_data .total_contact form {
+        width: 85%;
+        margin-right: 200px;
+    }
+
+    .contact_data .total_contact form input , 
+    .contact_data .total_contact form textarea {
+        font-size: 25px;
+    }
+
+    .contact_data .total_contact form button {
+        font-size: 25px;
+    }
+
+    .contact_data .total_contact .contact_info {
+        padding: 0px;
+    }
+
+    .contact_data .total_contact .contact_info h1 {
+        font-size: 45px;
+    }
+
+    .contact_data .total_contact .contact_info p {
+        font-size: 25px;
+    }
+
+    /* ========== Start footer ========== */
+
+    footer {
+        padding-bottom: 0;
+    }
+
+    footer .total_footer {
+        grid-template-columns: repeat(4 ,1fr);
+        padding: 20px 0;
+    }
+
+    .footer_copyrights {
+        justify-content: space-between;
+        padding-top: 20px;        
+    }
+}
+
+/* ############################################################### */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    /* ========== navbar ========== */
+    nav .navbar-brand {
+        margin-right: 10%;
+    }
+
+    nav .navbar-brand img {
+        width: 70%;
+    }
+
+    nav .navbar-nav {  
+        padding-bottom: 20px; 
+    }
+
+    #navbarNav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav .navbar-nav ,
+    nav .nav_cotacts p {
+        margin-top: 22px;
+    }
+
+    .navbar-light .navbar-nav .nav-link ,
+    nav .nav_cotacts button {
+        font-size: 22px;
+    }    
+
+    /* ========== Start map ========== */
+
+    .map {
+        margin: 40px;    
+    }
+
+    .map iframe {
+        height: 800px;
+    }
+
+    /* ========== Start contact_form ========== */
+
+    .contact_data {
+        padding: 150px 0;
+    }
+
+    .contact_data .total_contact .contact_info h1 {
+        font-size: 55px;
+    }
+    
+    /* ========== Start footer ========== */
+
+    footer {
+        padding-bottom: 0;
+    }
+
+    footer .total_footer {
+        grid-template-columns: repeat(4 ,1fr);
+        padding: 20px 0;
+    }
+
+    .footer_copyrights {
+        justify-content: space-between;
+        padding-top: 20px;        
+    }
+}

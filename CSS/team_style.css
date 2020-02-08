@@ -1,0 +1,567 @@
+/*
+author:    [Brainean] 
+email:     [brainean@brainean.tech] 
+website:   [www.brainean.tech] 
+*/
+
+/* ========== Very small mobiles ========== */
+/* ========== Generial ========== */
+html , body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Signika', sans-serif;
+    overflow-x: hidden;
+}
+
+/* ========== navbar ========== */
+nav {
+    background:#fff;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(173,166,173,1);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(173,166,173,1);
+    box-shadow: 0px 0px 17px 0px rgba(173,166,173,1);   
+}
+nav .navbar-brand img {
+    width: 50%;
+}
+
+nav .navbar-nav {
+    display: flex;
+    align-items: center;    
+    padding-bottom: 20px; 
+}
+
+nav .nav_cotacts {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link ,
+nav .nav_cotacts p {
+    font-size: 20px;
+    color: #64697A;
+}
+
+.navbar-light .navbar-nav .dropdown .dropdown-menu .dropdown-item {
+    color: #FF3A46;
+    font-weight: 800;
+}
+
+.navbar-light .navbar-nav .dropdown .dropdown-menu .dropdown-item:hover {
+    color: #ffff;
+    background: #FF3A46;
+}
+
+.navbar-light .navbar-nav .nav-link:hover ,
+.navbar-light .navbar-nav .nav-link.active {    
+    color: #FF3A46;
+}
+
+nav .nav_cotacts span {
+    color: #FF3A46;
+    font-weight: 600;
+}
+
+nav .nav_cotacts button {
+    color: #FF3A46;
+    padding: 5px 15px;
+    font-size: 20px;
+    background: none;
+    border: 1px solid #FF3A46;
+    transition: 0.4s ease-in-out;
+    outline: none;
+} 
+
+nav .nav_cotacts button:hover {
+    background: #FF3A46;
+    color: #fff;
+}
+
+.nav_cotacts button i {
+    margin: 10px 0 0 5px;
+    font-size: 15px;
+}
+
+/* ========== Start header ========== */
+
+header {
+    padding: 150px 0;
+    margin-top: 80px;
+    background: #FAFCFF;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+    color: #000;
+}
+
+/* ========== Start page_path ========== */
+
+.page_path {
+    padding: 10px 0;
+    text-align: center;
+    padding-top: 25px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.page_path p {
+    font-size: 20px;    
+    color: #233D63 !important;
+}
+
+/* ========== Start team_members ========== */
+
+.team_members {
+    background: #FDFDFE;
+    padding: 100px 0;
+}
+
+.team_members .total_members {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.team_members .total_members .member {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.team_members .total_members .member img {
+    width: 85%;
+}
+
+.team_members .total_members .member .social_icons {
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    left: 85%;
+    top: 0;
+    height: 122%;
+    width: 15%;
+    background: #fff; 
+    transform: perspective(200px);
+    transform: rotateY(90deg);
+    transition: 0.4s ease-in-out;
+    box-shadow: 8px 0px 8.6px 1.4px rgba(229, 234, 239, 0.2);
+}
+
+.team_members .total_members .member .social_icons i {
+    font-size: 20px;
+    margin: 10px 0;
+    color: rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+.team_members .total_members .member .social_icons i:first-child {
+    margin-top: -70px;
+}
+
+.team_members .total_members .member .social_icons i:hover {
+    color: #FF3A46;   
+}
+
+.team_members .total_members .member:hover .social_icons {
+    transform: rotateY(0deg);
+    box-shadow: 8px 0px -8.6px 1.4px rgba(229, 234, 239, 0.2);
+    z-index: 5;
+} 
+
+.team_members .total_members .member_info {
+    position: absolute;
+    padding: 10px 20px;
+    background: #fff;
+    width: 85%;
+    transform: translate(40px , -55px);
+    box-shadow: 5.994px 14.835px 30px 0px rgba(229, 234, 239, 0.5);
+    transition: 0.4s ease-in-out;
+}
+
+.team_members .total_members .member:hover .member_info {
+    box-shadow: -5.994px 14.835px 30px 0px rgba(229, 234, 239, 0.5);
+    transform: translate(0px , -55px);
+} 
+
+.team_members .total_members .member_info h1 {
+    font-size: 30px;
+    margin: 10px 0 0 10px;
+    color: #3d3d3d;
+}
+
+.team_members .total_members .member_info p {
+    font-size: 20px;
+    color: rgba(0,0,0,0.4);
+    margin-left: 10px;
+}
+
+.team_members .button_team {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team_members .button_team button {
+    border-radius: 30px;
+    border: 2px solid #FF3A46;
+    background: none;
+    padding: 10px 40px;
+    font-size: 20px;   
+    color: #FF3A46;
+    font-weight: 800;
+    position: relative;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;    
+}
+
+.team_members .button_team button:hover {
+    background: #FF3A46;
+    color: #fff;
+}
+
+.team_members .button_team button:focus {
+    outline: none;
+}
+
+.team_members .button_team button:hover .load_hover {
+    width: 100%;
+}
+/* ========== Start footer ========== */
+
+footer {
+    padding: 20px 0 50px 0;
+    border-top: 1px solid #dbdbdb;
+}
+
+footer .total_footer {
+    display: flex;
+    flex-direction: column;    
+}
+
+.total_footer .footer_div {
+    margin-bottom: 20px;
+}
+
+.total_footer .footer_div:nth-child(2) ,
+.total_footer .footer_div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+}
+
+.total_footer .footer_div p , 
+.total_footer .footer_div a {
+    color: #76797e;
+    font-size: 18px;
+}
+
+.total_footer .footer_div a:hover ,
+.footer_copyrights ul li a:hover {
+    color: #FF3A46;
+}
+
+.total_footer .footer_div:nth-child(1) p {
+    margin-top: 20px;
+}
+
+.total_footer .footer_div:nth-child(1) span {
+    color: #FF3A46;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.icons_footer {
+    display: flex;
+}
+
+.icons_footer i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 17px;
+    border: 1px solid #dbdbdb;
+    margin-right: 10px;
+    color: #dbdbdb;
+    transition: 0.4s ease-in-out;
+}
+
+.icons_footer i:hover {
+    background: #FF3A46;
+    border: 1px solid #FF3A46;
+    color: #fff;
+}
+
+.footer_copyrights {
+    border-top: 1px solid #dbdbdb;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.footer_copyrights ul li a,
+.footer_copyrights p {
+    color: rgba(87,102,126,0.8);
+    font-size: 18px;
+}
+
+.footer_copyrights ul {
+    display: flex;
+}
+
+.footer_copyrights ul li {
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+/* ################################################################## */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /* ========== Start page_path ========== */
+    .page_path p {
+        font-size: 28px;    
+    }
+    /* ========== Start team_members ========== */
+    .team_members .total_members .member img {
+        width: 95%;
+    }
+
+    .team_members .total_members .member .social_icons {
+        left: 95%;
+        height: 119.9%;
+    }
+    .team_members .total_members .member_info {
+        width: 95%;
+    }
+    /* ========== Start footer ========== */
+
+    footer {
+        padding: 50px 0;
+    }
+
+    footer .total_footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);  
+    }
+
+}
+
+/* ################################################################## */
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    /* ========== Start page_path ========== */
+    .page_path p {
+        font-size: 28px;    
+    }
+    /* ========== Start team_members ========== */
+
+    .team_members .total_members {
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+    }
+
+    .team_members .total_members .member {
+        margin: 0 50px 120px 0;
+    }
+
+    .team_members .total_members .member:nth-child(2) , 
+    .team_members .total_members .member:nth-child(4) ,  
+    .team_members .total_members .member:nth-child(6) ,  
+    .team_members .total_members .member:nth-child(8) {
+        margin-right: 0; 
+        margin-left: 50px;
+    }
+
+    .team_members .total_members .member img {
+        width: 85%;
+    }
+
+    .team_members .total_members .member .social_icons {
+        left: 85%;
+        height: 124%;
+    }
+    .team_members .total_members .member_info {
+        width: 95%;
+    }
+    
+    /* ========== Start footer ========== */
+
+    footer .footer_div a ,
+    footer .footer_div p {
+        font-size: 20px !important;
+    }
+
+    .footer_copyrights {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+/* ######################################################### */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    /* ========== navbar ========== */
+    nav {
+        background:#fff;
+        -webkit-box-shadow: 0px 0px 17px 0px rgba(173,166,173,1);
+        -moz-box-shadow: 0px 0px 17px 0px rgba(173,166,173,1);
+        box-shadow: 0px 0px 17px 0px rgba(173,166,173,1); 
+        display: flex;
+        flex: auto;  
+    }
+
+    nav .navbar-brand img {
+        width: 60%;
+    }
+
+    nav .navbar-nav {
+        display: flex;
+        align-items: center;    
+        padding-bottom: 20px; 
+    }
+
+    #navbarNav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav .navbar-nav ,
+    nav .nav_cotacts p {
+        margin-top: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-weight: 700;
+    }
+
+    nav .nav_cotacts {
+        display: flex;
+        padding-bottom: 0px;
+    }
+
+    nav .nav_cotacts button {
+        padding: 10px;
+        margin: 10px 0 0 15px;
+        height: 100%;
+        border: 2px #FF3A46 solid;
+    } 
+
+    /* ========== Start header ========== */
+
+    header h1 {
+        font-size: 70px;
+    }
+
+    /* ========== Start team_members ========== */
+    .team_members .total_members .member .social_icons {
+        height: 117%;
+    }
+
+    .team_members .total_members .member .social_icons i {
+        font-size: 23px;
+    }
+        
+    /* ========== Start footer ========== */
+
+    footer {
+        padding-bottom: 0;
+    }
+
+    footer .total_footer {
+        grid-template-columns: repeat(4 ,1fr);
+        padding: 20px 0;
+    }
+
+    .footer_copyrights {
+        justify-content: space-between;
+        padding-top: 20px;        
+    }
+}
+
+/* ############################################################### */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    /* ========== navbar ========== */
+    nav .navbar-brand {
+        margin-right: 10%;
+    }
+
+    nav .navbar-brand img {
+        width: 70%;
+    }
+
+    nav .navbar-nav {  
+        padding-bottom: 20px; 
+    }
+
+    #navbarNav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav .navbar-nav ,
+    nav .nav_cotacts p {
+        margin-top: 22px;
+    }
+
+    .navbar-light .navbar-nav .nav-link ,
+    nav .nav_cotacts button {
+        font-size: 22px;
+    }    
+
+    /* ========== Start header ========== */
+
+    header {
+        padding: 250px 0;
+    }
+
+    /* ========== Start team_members ========== */
+    
+    .team_members .total_members {
+        grid-template-columns: repeat(3 ,1fr);
+    }
+
+    .team_members .total_members .member:nth-child(2) , 
+    .team_members .total_members .member:nth-child(4) ,  
+    .team_members .total_members .member:nth-child(6) ,  
+    .team_members .total_members .member:nth-child(8) {
+        margin-right: 50px; 
+        margin-left: 0px;
+    }
+
+    .team_members .total_members .member .social_icons {
+        height: 122%;
+    }
+    
+    /* ========== Start footer ========== */
+
+    footer {
+        padding-bottom: 0;
+    }
+
+    footer .total_footer {
+        grid-template-columns: repeat(4 ,1fr);
+        padding: 20px 0;
+    }
+
+    .footer_copyrights {
+        justify-content: space-between;
+        padding-top: 20px;        
+    }
+}

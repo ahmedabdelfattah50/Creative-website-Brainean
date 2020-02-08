@@ -1,0 +1,636 @@
+/*
+author:    [Brainean] 
+email:     [brainean@brainean.tech] 
+website:   [www.brainean.tech] 
+*/
+
+/* ========== Very small mobiles ========== */
+/* ========== Generial ========== */
+html , body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Signika', sans-serif;
+    overflow-X: hidden;
+}
+
+/* ========== navbar ========== */
+nav {
+    background:#fff;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(173,166,173,1);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(173,166,173,1);
+    box-shadow: 0px 0px 17px 0px rgba(173,166,173,1);   
+}
+nav .navbar-brand img {
+    width: 50%;
+}
+
+nav .navbar-nav {
+    display: flex;
+    align-items: center;    
+    padding-bottom: 20px; 
+}
+
+nav .nav_cotacts {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link ,
+nav .nav_cotacts p {
+    font-size: 20px;
+    color: #64697A;
+}
+
+.navbar-light .navbar-nav .dropdown .dropdown-menu .dropdown-item {
+    color: #FF3A46;
+    font-weight: 800;
+}
+
+.navbar-light .navbar-nav .dropdown .dropdown-menu .dropdown-item:hover {
+    color: #ffff;
+    background: #FF3A46;
+}
+
+.navbar-light .navbar-nav .nav-link:hover ,
+.navbar-light .navbar-nav .nav-link.active {    
+    color: #FF3A46;
+}
+
+nav .nav_cotacts span {
+    color: #FF3A46;
+    font-weight: 600;
+}
+
+nav .nav_cotacts button {
+    color: #FF3A46;
+    padding: 5px 15px;
+    font-size: 20px;
+    background: none;
+    border: 1px solid #FF3A46;
+    transition: 0.4s ease-in-out;
+    outline: none;
+} 
+
+nav .nav_cotacts button:hover {
+    background: #FF3A46;
+    color: #fff;
+}
+
+.nav_cotacts button i {
+    margin: 10px 0 0 5px;
+    font-size: 15px;
+}
+
+/* ========== Start header ========== */
+
+header {
+    padding: 150px 0;
+    margin-top: 80px;
+    background: #FAFCFF;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+    color: #000;
+}
+
+/* ========== Start page_path ========== */
+
+.page_path {
+    padding: 10px 0;
+    text-align: center;
+    padding-top: 25px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.page_path p {
+    font-size: 20px;    
+    color: #233D63 !important;
+}
+
+/* ========== Start our_services ========== */
+
+.our_services {
+    padding: 70px 0 100px 0;
+}
+
+.our_services .services_header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.our_services .services_header h1 {
+    color: #3e3e3e;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.our_services .services_header p {
+    color: #798598;
+    font-size: 20px;
+}
+
+.our_services .mobil_app , 
+.our_services .wordpress {
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+.our_services .ui_ux , 
+.our_services .marketing {
+    display: flex;
+    flex-flow: column;
+}
+
+.mobil_app .mobil_Left img , 
+.wordpress .wordpress_Left img ,
+.ui_ux .ui_ux_Right img ,
+.marketing .marketing_Right img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.mobil_app .mobil_Right , 
+.wordpress .wordpress_Right ,
+.ui_ux .ui_ux_Left , 
+.marketing .marketing_Left {
+    padding: 20px 0;
+    margin-top: 40px;
+}   
+
+.mobil_app .mobil_Right span , 
+.wordpress .wordpress_Right span ,
+.ui_ux .ui_ux_Left span ,
+.marketing .marketing_Left span {
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.mobil_app .mobil_Right h1 , 
+.wordpress .wordpress_Right h1 ,
+.ui_ux .ui_ux_Left h1 ,
+.marketing .marketing_Left h1 {
+    margin-top: 20px;
+    color: #3e3e3e;
+    width: 80%;
+    font-size: 35px;
+    padding: 20px 0;
+}
+
+.mobil_app .mobil_Right i , 
+.wordpress .wordpress_Right i ,
+.ui_ux .ui_ux_Left i ,
+.marketing .marketing_Left i {
+    color: #cfd5df;
+    font-size: 30px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.mobil_app .mobil_Right i:hover , 
+.wordpress .wordpress_Right i:hover ,
+.ui_ux .ui_ux_Left i:hover ,
+.marketing .marketing_Left i:hover {
+    color: #FF3A46;    
+}
+
+.mobil_app .mobil_Right span {    
+    color: #ff8aa0;
+    background: #ffeaee;    
+}
+
+.wordpress .wordpress_Right span {
+    color: #70e9ae;
+    background: #e7fff5;
+}
+
+.ui_ux .ui_ux_Left span {
+    color: #ead24c;
+    background: #fef9da;
+}
+
+.marketing .marketing_Left span {
+    color: #7fd8ff;
+    background: #edf9ff;
+}
+
+/* ========== Start contact_us ========== */
+
+.contact_us {
+    background: #F9FBFE;
+    background-image: url("../images/shape/map2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact_us button {
+    border: 2px solid #FF3A46;
+    background: none;
+    color: #FF3A46;
+    border-radius: 20px;
+    padding: 10px 30px;
+    transition: 0.4s ease-in-out;
+    margin-top: 10px;
+    font-size: 20px;
+} 
+
+.contact_us button:hover {
+    background: #FF3A46;
+    color: #fff;
+    -webkit-box-shadow: 6px 3px 52px -16px rgba(84,84,92,1);
+    -moz-box-shadow: 6px 3px 52px -16px rgba(84,84,92,1);
+    box-shadow: 6px 3px 52px -16px rgba(84,84,92,1);
+}
+
+/* ========== Start footer ========== */
+
+footer {
+    padding: 20px 0 50px 0;
+    border-top: 1px solid #dbdbdb;
+}
+
+footer .total_footer {
+    display: flex;
+    flex-direction: column;    
+}
+
+.total_footer .footer_div {
+    margin-bottom: 20px;
+}
+
+.total_footer .footer_div:nth-child(2) ,
+.total_footer .footer_div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+}
+
+.total_footer .footer_div p , 
+.total_footer .footer_div a {
+    color: #76797e;
+    font-size: 18px;
+}
+
+.total_footer .footer_div a:hover ,
+.footer_copyrights ul li a:hover {
+    color: #FF3A46;
+}
+
+.total_footer .footer_div:nth-child(1) p {
+    margin-top: 20px;
+}
+
+.total_footer .footer_div:nth-child(1) span {
+    color: #FF3A46;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.icons_footer {
+    display: flex;
+}
+
+.icons_footer i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 17px;
+    border: 1px solid #dbdbdb;
+    margin-right: 10px;
+    color: #dbdbdb;
+    transition: 0.4s ease-in-out;
+}
+
+.icons_footer i:hover {
+    background: #FF3A46;
+    border: 1px solid #FF3A46;
+    color: #fff;
+}
+
+.footer_copyrights {
+    border-top: 1px solid #dbdbdb;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.footer_copyrights ul li a,
+.footer_copyrights p {
+    color: rgba(87,102,126,0.8);
+    font-size: 18px;
+}
+
+.footer_copyrights ul {
+    display: flex;
+}
+
+.footer_copyrights ul li {
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+/* ################################################################## */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /* ========== Start page_path ========== */
+    .page_path p {
+        font-size: 28px;    
+    }
+
+    /* ========== Start contact_us ========== */
+
+    .contact_us {
+        padding: 100px 0;
+    }
+
+    .contact_us h1 {
+        padding: 0 40px;
+    }
+
+    .contact_us button {
+        font-size: 20px;
+    } 
+
+    /* ========== Start footer ========== */
+
+    footer {
+        padding: 50px 0;
+    }
+
+    footer .total_footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);  
+    }
+
+}
+
+/* ################################################################## */
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    /* ========== Start page_path ========== */
+    .page_path p {
+        font-size: 28px;    
+    }    
+    
+    /* ========== Start our_services ========== */
+
+    .our_services .services_header h1 {
+        font-size: 40px;
+    }
+
+    .our_services .services_header p {
+        font-size: 25px;
+        margin-bottom: 70px;
+    }
+
+    .our_services .mobil_app , 
+    .our_services .wordpress ,
+    .our_services .ui_ux , 
+    .our_services .marketing {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        margin-bottom: 100px;
+    }
+
+    .our_services .marketing {
+        margin-bottom: 0;
+    }
+
+    .mobil_app .mobil_Right , 
+    .wordpress .wordpress_Right {
+        margin-left: 50px;
+    }   
+
+    .mobil_app .mobil_Right h1 , 
+    .wordpress .wordpress_Right h1 ,
+    .ui_ux .ui_ux_Left h1 ,
+    .marketing .marketing_Left h1 {
+        width: 100%;
+    }
+    /* ========== Start contact_us ========== */
+
+    .contact_us {
+        padding: 150px 0;
+    }
+    .contact_us button {
+        font-size: 23px;
+        margin-top: 30px;
+    } 
+
+    /* ========== Start footer ========== */
+
+    footer .footer_div a ,
+    footer .footer_div p {
+        font-size: 20px !important;
+    }
+
+    .footer_copyrights {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+/* ######################################################### */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    /* ========== navbar ========== */
+    nav {
+        background:#fff;
+        -webkit-box-shadow: 0px 0px 17px 0px rgba(173,166,173,1);
+        -moz-box-shadow: 0px 0px 17px 0px rgba(173,166,173,1);
+        box-shadow: 0px 0px 17px 0px rgba(173,166,173,1); 
+        display: flex;
+        flex: auto;  
+    }
+
+    nav .navbar-brand img {
+        width: 60%;
+    }
+
+    nav .navbar-nav {
+        display: flex;
+        align-items: center;    
+        padding-bottom: 20px; 
+    }
+
+    #navbarNav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav .navbar-nav ,
+    nav .nav_cotacts p {
+        margin-top: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-weight: 700;
+    }
+
+    nav .nav_cotacts {
+        display: flex;
+        padding-bottom: 0px;
+    }
+
+    nav .nav_cotacts button {
+        padding: 10px;
+        margin: 10px 0 0 15px;
+        height: 100%;
+        border: 2px #FF3A46 solid;
+    } 
+
+    /* ========== Start header ========== */
+
+    header h1 {
+        font-size: 70px;
+    }
+
+    /* ========== Start our_services ========== */
+
+    .our_services .mobil_app , 
+    .our_services .wordpress ,
+    .our_services .ui_ux , 
+    .our_services .marketing {
+        margin-bottom: 120px;
+    }
+
+    .our_services .marketing {
+        margin-bottom: 50px;
+    }
+
+    .mobil_app .mobil_Right h1 , 
+    .wordpress .wordpress_Right h1 ,
+    .ui_ux .ui_ux_Left h1 ,
+    .marketing .marketing_Left h1 {
+        width: 80%;
+        font-size: 40px;
+    }
+
+    /* ========== Start contact_us ========== */
+
+    .contact_us {
+        padding: 170px 0;
+    }
+
+    /* ========== Start footer ========== */
+
+    footer {
+        padding-bottom: 0;
+    }
+
+    footer .total_footer {
+        grid-template-columns: repeat(4 ,1fr);
+        padding: 20px 0;
+    }
+
+    .footer_copyrights {
+        justify-content: space-between;
+        padding-top: 20px;        
+    }
+}
+
+/* ############################################################### */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    /* ========== navbar ========== */
+    nav .navbar-brand {
+        margin-right: 10%;
+    }
+
+    nav .navbar-brand img {
+        width: 70%;
+    }
+
+    nav .navbar-nav {  
+        padding-bottom: 20px; 
+    }
+
+    #navbarNav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav .navbar-nav ,
+    nav .nav_cotacts p {
+        margin-top: 22px;
+    }
+
+    .navbar-light .navbar-nav .nav-link ,
+    nav .nav_cotacts button {
+        font-size: 22px;
+    }    
+
+    /* ========== Start header ========== */
+
+    header {
+        padding: 250px 0;
+    }
+
+    /* ========== Start our_services ========== */
+
+    .our_services .services_header h1 {
+        font-size: 50px;
+        padding: 0 100px;
+    }
+
+    .our_services .services_header p {
+        font-size: 25px;
+        padding: 0 100px;
+    }
+
+    .mobil_app .mobil_Right h1 , 
+    .wordpress .wordpress_Right h1 ,
+    .ui_ux .ui_ux_Left h1 ,
+    .marketing .marketing_Left h1 {
+        width: 80%;
+        font-size: 45px;
+    }
+
+    /* ========== Start contact_us ========== */
+
+    .contact_us {
+        padding: 150px 0;
+    }
+
+    .contact_us h1 {
+        font-size: 50px;
+        padding: 0 200px;
+    }
+
+    .contact_us button {
+        font-size: 25px;
+    }
+    
+    /* ========== Start footer ========== */
+
+    footer {
+        padding-bottom: 0;
+    }
+
+    footer .total_footer {
+        grid-template-columns: repeat(4 ,1fr);
+        padding: 20px 0;
+    }
+
+    .footer_copyrights {
+        justify-content: space-between;
+        padding-top: 20px;        
+    }
+}
